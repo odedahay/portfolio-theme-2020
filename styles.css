@@ -218,10 +218,12 @@ p{
     background-position: center;
     transition: all 1s;
     background-blend-mode: overlay;
+    background-color: rgba(250, 135, 41, .35);
+    
 }
 
 .category-item:hover {
-    background-color: rgba(250, 135, 41, .5)
+    background-color: rgba(250, 135, 41, 0);
 }
 
 .category-item-inner {
@@ -234,9 +236,9 @@ p{
 
 .category-item-inner > a.category-item-link {
     padding: 5px 10px;
-    background: var(--black);
+    background: var(--orange-color);
     color: white;
-    border-radius: 5px;
+    border-radius: 1px;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -272,6 +274,7 @@ a.category-item-link:hover{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -331,13 +334,17 @@ a.button {
     padding: 6px 10px;
     text-transform: uppercase;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1px;
     font-size: 16px;
+    transition: 0.3s;
 }
 
 a.front-btn{
     background:var(--front-btn);
     font-weight: bold;
+}
+a.front-btn:hover{
+    background:var(--orange-color);
 }
 
 /* inner Section */
@@ -569,7 +576,7 @@ ul.social-icons{
     padding: 6px 10px;
     text-transform: uppercase;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1px;
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -592,10 +599,10 @@ ul.social-icons{
 
 .portflio-btn a{
     text-decoration:none;
-    color: var(--front-btn);
+    color: #fff;
     padding: 10px 15px;
     background-color: var(--orange-color);
-    border-radius: 5px;
+    border-radius: 1px;
     transition:0.5s;
 }
 
