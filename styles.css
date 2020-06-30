@@ -273,8 +273,8 @@ a.category-item-link:hover{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
     padding-bottom: 20px;
 }
 
@@ -399,6 +399,25 @@ a.front-btn:hover{
 }
 .inner-page img {
     max-width: 100%;
+}
+
+.about-page-item ul{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.about-page-item ul.social-icons-about{
+    padding-left: 0px;
+    padding-top: 15px;
+}
+.about-page-item .social-icons-about li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.about-page-item .social-icons-about li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--black);
 }
 
 ul.social-icons{
@@ -814,6 +833,7 @@ button:focus {outline: none;}
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: 999;
   }
 
   .modal-container.show-modal {
