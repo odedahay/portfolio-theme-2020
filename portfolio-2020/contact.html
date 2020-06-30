@@ -1,0 +1,109 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rodelio Dahay | Contact Page</title>
+        <link rel="shortcut icon" type="img/png" href="images/favicon.png">
+        <link href="styles.css" rel="stylesheet" />
+        <link href="css/fontawesome.css" rel="stylesheet">
+        <link href="css/brands.css" rel="stylesheet">
+        <link href="css/solid.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img 
+                    src="images/odedahay.svg" 
+                    alt="Ode Dahay"
+                    class="logostyle" />
+            </div>
+    
+            <div id="menu-bar" class="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="active dropbtn" onclick="myFunction()">Work Samples <i class="fa fa-caret-down"></i></a>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="web.html">Web Design</a>
+                            <a href="edm.html">EDM Design</a>
+                            <a href="logo.html">Logo Design</a>
+                          </div>
+                    </li>
+                    <li><a href="#" id="open">Get in Touch</a></li>
+                    <!-- <li><a href="contact.html" class="active">Message Me!</a></li> -->
+                </ul>
+            </div>
+        </header>
+        <div class="bg-color">
+            <section class="inner-page">
+                <div class="contact-wrapper">
+                    <div class="contactinfo">
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li>
+                                <span><i class="fas fa-home"></i></span>
+                                <span>Singapore 310226</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-envelope-open-text"></i></span>
+                                <span>odedahay@yahoo.com</span>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-mobile-alt"></i></span>
+                                <span>+65 96496517</span>
+                            </li>
+                        </ul>
+                        <ul class="sci">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>  
+                    <div class="contactForm">
+                        <h2>Send a Message</h2>
+                        <div class="formBox">
+                            <div class="inputBox w50">
+                                <input type="text" name="" required>
+                                <span>First Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="text" name="" required>
+                                <span>Last Name</span>
+                            </div>
+                            <div class="inputBox w50">
+                                <input type="email" name="email" required>
+                                <span>Email Address</span>
+                            </div>
+                            <div class="inputBox w100">
+                                <textarea name="" required></textarea>
+                                <span>Write your message here...</span>
+                            </div>
+                            <div class="inputBox w100">
+                                <input type="submit" value="Send">
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </section>
+        </div>  
+        <footer>
+            <div class="footer-container">
+                <div class="footer-item">
+                    "Stop dreaming. Start doing"
+                </div>
+                <div class="footer-item">
+                    © <script>document.write(new Date().getFullYear()); </script> Ode Dahay 
+                </div>
+            </div>
+            
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

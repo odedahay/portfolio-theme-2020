@@ -1,0 +1,123 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rodelio Dahay | About Me</title>
+        <link rel="shortcut icon" type="img/png" href="images/favicon.png">
+        <link href="styles.css" rel="stylesheet" />
+        <link href="css/fontawesome.css" rel="stylesheet">
+        <link href="css/brands.css" rel="stylesheet">
+        <link href="css/solid.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <img
+                    src="images/odedahay.svg"
+                    alt="Ode Dahay"
+                    class="logostyle" />
+            </div>
+
+            <div id="menu-bar" class="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html" class="active">About Me</a></li>
+                    <li class="dropdown">
+                        <a href="#" class=" dropbtn" onclick="myFunction()">Work Samples <i class="fa fa-caret-down"></i></a>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="web.html">Web Design</a>
+                            <a href="edm.html">EDM Design</a>
+                            <a href="logo.html">Logo Design</a>
+                          </div>
+                    </li>
+                    <li><a href="#" id="open">Get in Touch</a></li>
+                </ul>
+            </div>
+
+
+        </header>
+        <div class="bg-color">
+            <section class="inner-page">
+
+                    <div class="about-page">
+                        <!-- The diagonal area -->
+                        <div class="about-page-item">
+
+                            <img src="images/odedahay.jpg" class="about-img">
+                        </div>
+
+                        <div class="about-page-item">
+                            <h1 class="bigTitle">About Me</h1>
+                            <p>Hi, there! I am Ode Dahay - yeah! that's my name (short name given by my Mum - 'Ode').</p>
+                            <p>I'm a digital designer and seasonal developer. A newly dad to my baby Lilyana.  I have a passion for creating websites and love to developing interactive designs</p>
+
+                            <p>I simply love and enjoy my 24/7 activities:</p>
+                                
+                            <ul>
+                                <li>UI Designing</li>
+                                <li>Developing WP theme</li>
+                                <li>Developing Django App</li>
+                                <li>Photography</li>
+                                <li>Pyrography</li>
+                            </ul>    
+                            
+                            <p>
+                                If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+                            </p>
+                            <h3>Follow Me:</h3>
+                            <div class="social-wrapper">
+                                <ul class="social-icons-about">
+                                    <li><a href="https://www.facebook.com/ode.dahay" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://wa.me/6596496517"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/rodelio-dahay/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!-- <div class="clip-path-bg"></div>  -->
+                    </div>
+
+
+            </section>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-item">
+                    "Stop dreaming. Start doing"
+                </div>
+                <div class="footer-item">
+                    © <script>document.write(new Date().getFullYear()); </script> Ode Dahay
+                </div>
+            </div>
+
+        </footer>
+
+         <!-- Modal Contact ME-->
+        <div class="modal-container" id="modal">
+            <div class="modal">
+                <button class="close-btn" id="close"><i class="fa fa-times"></i> </button>
+                <div class="modal-header">
+                    <h3><i class="fas fa-envelope"></i> Get in Touch</h3>
+                </div>
+                <div class="modal-content">
+                    
+                    <p>I will have an online form in place soon. Until then, connect with me on any of the platforms below!</p>
+                    <div class="social-icons">
+
+                        <a href="https://www.linkedin.com/in/rodelio-dahay/" class="social-icons__icon" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/ode.dahay" class="social-icons__icon" title="Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://wa.me/6596496517" class="social-icons__icon" title="Instagram" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
